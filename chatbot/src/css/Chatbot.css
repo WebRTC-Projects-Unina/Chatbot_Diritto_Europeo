@@ -1,0 +1,163 @@
+/* Contenitore del chatbot (centrato) */
+.container {
+    width: 100%;
+    height: 100vh;  /* Altezza fissa per tutta la finestra */
+    display: flex;  /* Layout flex per la distribuzione orizzontale */
+}
+
+/* Sidebar per la selezione della chat */
+.sidebar {
+    width: 250px;  /* Larghezza fissa per la sidebar */
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    position: fixed;  /* Sidebar fissa a sinistra */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+/* Contenitore per la chatbox, che si sposterà a destra della sidebar */
+.chatbox-container {
+    margin-left: 250px;  /* Distanza per la sidebar */
+    padding: 20px;
+    width: 450px;  /* Rimuove la larghezza della sidebar */
+    height: 90vh;  /* Altezza fissa per la chatbox */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenitore principale della chat-box */
+.chat-box {
+    height: 80vh;  /* Altezza fissa per la chat-box */
+    max-height: 80vh;  /* Limita l'altezza della chat-box */
+    overflow-y: auto;  /* Aggiunge lo scroll verticale quando i messaggi sono molti */
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrollbar personalizzata */
+.chat-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 3px;
+}
+
+/* Messaggi */
+.chat-entry {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Messaggi dell'utente */
+.chat-entry.user {
+    align-self: flex-end;
+    margin-top: 10px;
+    background: #4caf50;
+    color: white;
+    border-bottom-right-radius: 2px;
+}
+
+/* Messaggi del bot */
+.chat-entry.bot {
+    margin-top: 10px;
+    align-self: flex-start;
+    background: #ddd;
+    color: black;
+    border-bottom-left-radius: 2px;
+}
+
+/* Input e bottone */
+.input-group {
+    display: flex;
+    margin-top: 10px;
+}
+
+input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Caricamento (puntino lampeggiante sotto il bot) */
+.bot-typing {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #000000;
+    animation: blink-dot 1s infinite step-start;
+}
+
+@keyframes blink-dot {
+    50% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+/* Animazione dei messaggi */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsività per schermi piccoli */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;  /* Layout verticale per schermi piccoli */
+    }
+
+    .sidebar {
+        width: 100%;  /* Sidebar prende tutta la larghezza */
+        position: relative;  /* Non più fissa a sinistra */
+        height: auto;
+    }
+
+    .chatbox-container {
+        margin-left: 0;
+        width: 100%;
+    }
+}

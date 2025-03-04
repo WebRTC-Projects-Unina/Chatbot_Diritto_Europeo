@@ -1,0 +1,330 @@
+{    
+    
+    "title":["MiCAR","DORA","CSDR"],
+    "questions":[
+                    {
+                        "domanda": "Cos'è il MiCAR?",
+                        "contesto": "Il MiCAR è il Regolamento sui Mercati delle Cripto-Attività (Regolamento 2023/1114/UE), che fornisce un quadro completo e dettagliato per le cosiddette “stablecoin”, affrontando le complessità del mercato delle cripto-attività con l'obiettivo di incoraggiare l'innovazione e salvaguardare i cittadini dell'UE. Il MiCAR è una risposta alle preoccupazioni emergenti riguardo alla regolamentazione delle cripto-attività nell'UE, con particolare attenzione alla stabilità e alla protezione degli investitori.",
+                        "risposta": "Il Regolamento sui Mercati delle Cripto-Attività (Regolamento 2023/1114/UE) fornisce un quadro completo e dettagliato per le cosiddette “stablecoin”, affrontando le complessità del mercato delle cripto-attività con l'obiettivo di incoraggiare l'innovazione e salvaguardare i cittadini dell'UE [Frunzeti & Dumitru, 2024]. ",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Perché è stato introdotto?", 
+                        "contesto": "Il co-legislatore europeo ha introdotto questa nuova regolamentazione per diverse ragioni. Prima di tutto, era urgente colmare quella che era stata definita un'\"assenza di un quadro normativo stabile\" sia dall'ESMA (2019) che dall'EBA (2019). Le preoccupazioni sui rischi per i consumatori erano presenti poiché le cripto-attività non rientravano chiaramente nella definizione di strumenti finanziari (e, di conseguenza, nel campo di applicazione della MiFID II), lasciando un vuoto normativo. Inoltre, il legislatore mirava a evitare l'arbitraggio normativo tra i diversi Stati membri dell'UE: data la natura transfrontaliera degli asset basati su DLT, un approccio paese per paese sarebbe stato quasi certamente (e di fatto lo era) insufficiente. Infine, l'attività preparatoria da parte del legislatore è iniziata in un periodo in cui il numero di ICO è salito alle stelle. Le stablecoin non avevano garanzie sufficienti per assicurare la possibilità di convertirle in valuta legale. Queste stablecoin non rientravano nel controllo della BCE sull'emissione di denaro, ostacolando la sua capacità (e il suo dovere) di garantire la stabilità finanziaria e dei prezzi. L'introduzione del MiCAR è legata alla necessità di una regolamentazione chiara e uniforme per le cripto-attività nell'UE, evitando rischi per i consumatori e le disuguaglianze tra gli Stati membri.",
+                        "risposta": "Il co-legislatore europeo ha introdotto questa nuova regolamentazione per diverse ragioni. Prima di tutto, era urgente colmare quella che era stata definita un'\"assenza di un quadro normativo stabile\" sia dall'ESMA (2019) che dall'EBA (2019). Le preoccupazioni sui rischi per i consumatori erano presenti poiché le cripto-attività non rientravano chiaramente nella definizione di strumenti finanziari (e, di conseguenza, nel campo di applicazione della MiFID II), lasciando un vuoto normativo. Inoltre, il legislatore mirava a evitare l'arbitraggio normativo tra i diversi Stati membri dell'UE: data la natura transfrontaliera degli asset basati su DLT, un approccio paese per paese sarebbe stato quasi certamente (e di fatto lo era) insufficiente. Infine, l'attività preparatoria da parte del legislatore è iniziata in un periodo in cui il numero di ICO è salito alle stelle. Le stablecoin non avevano garanzie sufficienti per assicurare la possibilità di convertirle in valuta legale. Queste stablecoin non rientravano nel controllo della BCE sull'emissione di denaro, ostacolando la sua capacità (e il suo dovere) di garantire la stabilità finanziaria e dei prezzi.  ",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "A cosa mira il MiCAR?", 
+                        "contesto": "Considerando che la politica monetaria della BCE è efficace fintanto che la BCE è l'unica entità autorizzata a controllarla, il MiCAR mira esplicitamente a garantire che l'autorità competente sia in grado di supervisionare il comportamento del settore privato ed evitare potenziali effetti negativi sulla politica monetaria. MiCAR cerca di assicurare la protezione della politica monetaria nell'UE, prevenendo che la proliferazione di cripto-attività private comprometta la stabilità economica.",
+                        "risposta": "Considerando che la politica monetaria della BCE è efficace fintanto che la BCE è l'unica entità autorizzata a controllarla, il MiCAR mira esplicitamente a garantire che l'autorità competente sia in grado di supervisionare il comportamento del settore privato ed evitare potenziali effetti negativi sulla politica monetaria.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Cosa sono gli EMT?",
+                        "contesto": "Gli EMT sono una delle tre categorie di cripto-attività a cui si applica MiCAR. Sono cripto-attività che mirano a stabilizzare il loro valore facendo riferimento a una valuta ufficiale (art. 3). Il loro regime è di grande interesse per il futuro, in quanto, tra tutte le cripto-attività, sono le uniche che hanno realmente la possibilità di essere stabili nel tempo, e possibilmente di servire effettivamente come valuta. Gli EMT sono fondamentali per l'obiettivo di MiCAR di stabilizzare il mercato delle cripto-attività e ridurre il rischio associato alle criptovalute altamente volatili.",
+                        "risposta": "Gli EMT sono una delle tre categorie di cripto-attività a cui si applica MiCAR. Sono cripto-attività che mirano a stabilizzare il loro valore facendo riferimento a una valuta ufficiale (art. 3). Il loro regime è di grande interesse per il futuro, in quanto, tra tutte le cripto-attività, sono le uniche che hanno realmente la possibilità di essere stabili nel tempo, e possibilmente di servire effettivamente come valuta.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Qual è l'approccio normativo di MiCAR riguardo alle cripto-attività?",
+                        "contesto": "L'approccio normativo di MiCAR non è quello di regolamentare le cripto-attività in sé, ma di regolamentare il mercato delle cripto-attività. Le norme MiCAR sono indirizzate principalmente agli emittenti di token di moneta elettronica (EMT) e ai fornitori di servizi di cripto-attività. MiCAR si concentra sulla regolamentazione delle strutture e delle attività legate alle cripto-attività piuttosto che sulle cripto-attività stesse, mirando a creare un ambiente sicuro e regolato per gli utenti e gli emittenti.",
+                        "risposta": "Nell'analizzare il regime giuridico degli EMT, si deve tener presente che l'approccio normativo su cui si basa MiCAR non è quello di regolamentare le cripto-attività di per sé, ma di regolamentare il loro mercato. Più precisamente, le norme MiCAR sono indirizzate agli emittenti di token di moneta elettronica e ai fornitori di servizi di cripto-attività. ",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Chi sono gli emittenti di token di moneta elettronica (EMT)?",
+                        "contesto": "Gli emittenti di EMT sono persone fisiche o giuridiche che offrono EMT al pubblico o che cercano di ottenere la loro ammissione alla negoziazione su una piattaforma. Gli emittenti di EMT giocano un ruolo cruciale nel mercato delle cripto-attività, poiché sono i responsabili della creazione, della distribuzione e della negoziazione di token di moneta elettronica, soggetti alla supervisione delle autorità competenti.",
+                        "risposta": "Gli emittenti di EMT sono persone fisiche o giuridiche che offrono EMT al pubblico o cercano la loro ammissione alla negoziazione su una piattaforma.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Chi sono i CASP?",
+                        "contesto": "Al contrario degli emittenti EMT, i CASP sono persone giuridiche o imprese che offrono servizi EMT 1, con l'eccezione dei token non nativi che si classificano come \"security token\", in quanto sono veri e propri strumenti finanziari e quindi rientrano nel regime della MiFID II.",
+                        "risposta": "Diversamente dagli emittenti di EMT, i CASP sono imprese o persone giuridiche che offrono servizi EMT 1. Tuttavia, i token non nativi considerati \"security token\" sono classificati come strumenti finanziari e soggetti alla normativa MiFID II.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Parlami del regime giuridico degli EMT.",
+                        "contesto": "Per offrire EMT al pubblico o richiedere la loro ammissione a una piattaforma, gli emittenti di EMT devono essere autorizzati come istituti di credito o come istituti di moneta elettronica ai sensi della definizione dell'art. 2(1) della Direttiva sulla moneta elettronica (Direttiva 2009/110/CE) (art. 48). Ciò significa che tutti gli emittenti di EMT sono già sottoposti a supervisione e, di conseguenza, sono soggetti a un regime agevolato rispetto agli emittenti di ART. Gli emittenti di EMT devono notificare all'NCA (che è l'Autorità Nazionale Designata secondo la DEM II) la loro intenzione di emettere EMT o di richiedere l'ammissione alla negoziazione su una piattaforma di negoziazione almeno 40 giorni in anticipo (art. 48, par. 6); ",
+                        "risposta": "Gli emittenti di EMT devono essere autorizzati come istituti di credito o di moneta elettronica, ai sensi della definizione dell'art. 2(1) della Direttiva sulla moneta elettronica (Direttiva 2009/110/CE) (art. 48), e sono quindi già soggetti a supervisione. Questo garantisce loro un regime più favorevole rispetto agli emittenti di ART. Inoltre, devono notificare all'Autorità Nazionale Designata (NCA) l'intenzione di emettere EMT o di richiederne la negoziazione su una piattaforma almeno 40 giorni prima. ",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Quali sono gli obblighi degli emittenti di EMT ?",
+                        "contesto": "Gli emittenti di EMT devono redigere un white paper contenente informazioni chiare, eque, non fuorvianti e non tecniche riguardo l'emissione, l'emittente, i diritti legati al token, la tecnologia e i rischi. Il white paper deve essere notificato all'autorità competente almeno 20 giorni prima della sua pubblicazione e deve essere pubblicato sul sito web dell'emittente. Il white paper è un elemento cruciale per garantire la trasparenza e la protezione degli investitori, fornendo informazioni dettagliate e chiare riguardo all'emissione e alla gestione degli EMT.",
+                        "risposta": "Gli emittenti di EMT devono redigere un white paper sulle cripto-attività e notificarlo all'autorità competente, insieme a qualsiasi altra comunicazione di marketing, almeno 20 giorni prima di pubblicarlo obbligatoriamente sul loro sito web (art. 51). L'emissione senza autorizzazione o notifica del White Paper comporta l'immediata cessazione dell'attività, se così ordinato dall'autorità competente (art. 94 lett. u). ",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Parlami del white paper. Come deve essere strutturato?", 
+                        "contesto": "Il white paper deve contenere informazioni sull'emissione (sull'emittente, sul token, sui diritti ad esso collegati, sull'offerta, sulla tecnologia e sui rischi) in modo equo, chiaro e non fuorviante e in un linguaggio non tecnico. Al momento della pubblicazione, l'organo di amministrazione dell'emittente di EMT deve dichiarare che è conforme ai requisiti MiCAR e che le informazioni in esso presentate sono complete, eque, chiare e non fuorvianti e non sono influenzate da alcuna omissione. ",
+                        "risposta": "Il white paper deve presentare in modo chiaro, equo e non fuorviante informazioni sull’emittente, sul token, sui diritti connessi, sull’offerta, sulla tecnologia e sui rischi, utilizzando un linguaggio semplice. Al momento della pubblicazione, l’organo di amministrazione dell’emittente di EMT deve attestare la conformità ai requisiti MiCAR e garantire che le informazioni siano complete e trasparenti, senza omissioni.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Quali sono le conseguenze se un emittente non rispetta i requisiti per il white paper?",
+                        "contesto": "Se le informazioni contenute nel white paper non sono conformi ai requisiti, l'emittente e i membri del suo organo amministrativo sono responsabili nei confronti dei detentori dei token per qualsiasi perdita subita. Inoltre, l'autorità competente può ordinare l'immediata cessazione dell'attività di emissione.Le conseguenze per la non conformità ai requisiti del white paper sono severe, per garantire che gli emittenti rispettino i principi di trasparenza e responsabilità verso gli investitori.",
+                        "risposta": "Se, infatti, le informazioni incluse nel white paper non sono conformi ai requisiti dell'art. 51, l'emittente e i membri del suo organo amministrativo, di gestione o di vigilanza sono responsabili nei confronti del detentore di tale token di moneta elettronica per qualsiasi perdita subita a causa di tale violazione (art. 52). ",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Chi è il principale responsabile del contenuto del white paper?", 
+                        "contesto": "È importante (e infatti deve essere indicato nella prima pagina) che l'emittente di EMT è l'unico responsabile del contenuto del white paper, in quanto non è soggetto all'approvazione di alcuna NCA in nessun Stato membro (art. 51.3). Tuttavia, l'autorità competente ha il potere di imporre modifiche al documento (art. 94), in caso di mancanza delle informazioni richieste (lett. i) o qualora sia ritenuta necessaria un'integrazione per preservare la stabilità finanziaria o per tutelare gli interessi dei detentori (lett. j).",
+                        "risposta": "Il white paper deve indicare chiaramente, fin dalla prima pagina, che l’emittente di EMT è l’unico responsabile del suo contenuto, senza necessità di approvazione da parte di alcuna NCA negli Stati membri (art. 51.3). Tuttavia, l’autorità competente può richiedere modifiche (art. 94) se mancano informazioni essenziali (lett. i) o se un’integrazione è necessaria per la stabilità finanziaria o la tutela dei detentori (lett. j).",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Come avviene l'emissione e il rimborso degli EMT?",
+                        "contesto": "Gli EMT vengono emessi al valore nominale al momento della ricezione dei fondi. I detentori hanno un credito nei confronti dell’emittente, che su richiesta deve rimborsare il valore del token in fondi diversi dalla moneta elettronica, senza commissioni né interessi.",
+                        "risposta": " Gli EMT vengono emessi al valore nominale e possono essere rimborsati senza costi aggiuntivi o interessi. ",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda":  "Quali sono le garanzie di liquidità richieste agli emittenti di EMT?",
+                        "contesto": "Per garantire stabilità, l'art. 55 impone che almeno il 30% dei fondi ricevuti dagli emittenti sia depositato in conti separati presso istituti di credito, mentre il resto deve essere investito in attività liquide e a basso rischio nella stessa valuta dell’EMT.",
+                        "risposta": "Gli emittenti devono mantenere almeno il 30% dei fondi in conti separati e investire il restante in asset liquidi e sicuri.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Perché sono previsti rigidi requisiti di liquidità per gli EMT?",
+                        "contesto": "Il principale rischio per gli EMT è un crollo del token o del suo mercato, che potrebbe scatenare una corsa agli sportelli e vendite forzate da parte dell'emittente. Per questo motivo, i requisiti di liquidità sono considerati necessari e proporzionati.",
+                        "risposta": "Per prevenire crisi di liquidità e corse agli sportelli in caso di crollo del token o del mercato. ",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Cosa succede se un emittente di EMT non rispetta le norme MiCAR?",
+                        "contesto": "Le autorità competenti possono prendere misure per garantire la conformità, tra cui la sospensione dell'emissione o della negoziazione per un massimo di 30 giorni, vietare le comunicazioni di marketing e, in caso di violazione accertata, possono vietare l'emissione di cripto-attività. Le violazioni possono anche portare a sanzioni amministrative o pubbliche. MiCAR prevede sanzioni e misure correttive per garantire che gli emittenti rispettino le normative e per proteggere gli investitori e la stabilità del mercato.",
+                        "risposta": "Le autorità competenti possono prendere misure per garantire la conformità, tra cui la sospensione dell'emissione o della negoziazione per un massimo di 30 giorni, vietare le comunicazioni di marketing e, in caso di violazione accertata, possono vietare l'emissione di cripto-attività. Le violazioni possono anche portare a sanzioni amministrative o pubbliche.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Qual è la differenza tra gli EMT significativi e quelli non significativi?",
+                        "contesto": "Gli EMT significativi sono soggetti a requisiti più restrittivi rispetto agli EMT non significativi. Ad esempio, devono costituire una riserva di attività operativamente segregata per coprire i rischi di liquidità e adottare una politica di remunerazione che promuova una gestione del rischio solida. Inoltre, sono sottoposti a una vigilanza diretta da parte dell'EBA.La classificazione degli EMT come significativi o non significativi influisce sulle regole di vigilanza e sui requisiti di capitale e liquidità a cui sono sottoposti.",
+                        "risposta": "Gli EMT significativi sono soggetti a requisiti più restrittivi rispetto agli EMT non significativi. Ad esempio, devono costituire una riserva di attività operativamente segregata per coprire i rischi di liquidità e adottare una politica di remunerazione che promuova una gestione del rischio solida. Inoltre, sono sottoposti a una vigilanza diretta da parte dell'EBA.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Cosa accade se un EMT è classificato come significativo?",
+                        "contesto": "Quando un EMT è classificato come significativo, la responsabilità di vigilanza passa dall'autorità competente nazionale all'EBA. L'EBA ha poteri di indagine e può richiedere informazioni, effettuare ispezioni in loco e condurre stress test sulla liquidità dell'emittente. Inoltre, gli emittenti significativi devono soddisfare requisiti patrimoniali e di liquidità più rigorosi.Gli EMT significativi sono sottoposti a una sorveglianza più rigida per garantire che non rappresentino una minaccia per la stabilità finanziaria, con l'EBA che assume un ruolo centrale nella loro regolamentazione.",
+                        "risposta": "Quando un EMT è classificato come significativo, la responsabilità di vigilanza passa dall'autorità competente nazionale all'EBA. L'EBA ha poteri di indagine e può richiedere informazioni, effettuare ispezioni in loco e condurre stress test sulla liquidità dell'emittente. Inoltre, gli emittenti significativi devono soddisfare requisiti patrimoniali e di liquidità più rigorosi.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Come influisce MiCAR sulla stabilità finanziaria e la politica monetaria nell'UE?",
+                        "contesto": "MiCAR mira a garantire una maggiore protezione degli investitori, migliorando la trasparenza e la responsabilità degli emittenti di cripto-attività. Il regolamento cerca di prevenire i rischi per la stabilità finanziaria e la politica monetaria, in particolare limitando l'emissione di stablecoin private 'globali' che potrebbero minacciare il sistema finanziario tradizionale.MiCAR è stato progettato per affrontare i rischi emergenti per la stabilità economica derivanti dall'uso diffuso di cripto-attività e stablecoin, proteggendo così l'area dell'euro da possibili destabilizzazioni.",
+                        "risposta": "MiCAR mira a garantire una maggiore protezione degli investitori, migliorando la trasparenza e la responsabilità degli emittenti di cripto-attività. Il regolamento cerca di prevenire i rischi per la stabilità finanziaria e la politica monetaria, in particolare limitando l'emissione di stablecoin private 'globali' che potrebbero minacciare il sistema finanziario tradizionale.MiCAR è stato progettato per affrontare i rischi emergenti per la stabilità economica derivanti dall'uso diffuso di cripto-attività e stablecoin, proteggendo così l'area dell'euro da possibili destabilizzazioni.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Qual è il ruolo dell'EUROC nell'ecosistema delle cripto-attività?",
+                        "contesto": "L'EUROC è una stablecoin conforme al MiCAR, ancorata all'euro, e rappresenta una risposta alle stablecoin ancorate al dollaro USA. L'EUROC si propone come un'alternativa solida e affidabile, rafforzando l'influenza dell'UE nello sviluppo degli standard della tecnologia blockchain e affrontando la sfida alla sovranità tecnologica degli Stati Uniti.L'EUROC rappresenta un passo importante nella creazione di una moneta digitale dell'UE, che contrasti l'egemonia di stablecoin legate al dollaro USA, rafforzando la posizione dell'Europa nel panorama globale delle cripto-attività.",
+                        "risposta": "L'EUROC è una stablecoin conforme al MiCAR, ancorata all'euro, e rappresenta una risposta alle stablecoin ancorate al dollaro USA. L'EUROC si propone come un'alternativa solida e affidabile, rafforzando l'influenza dell'UE nello sviluppo degli standard della tecnologia blockchain e affrontando la sfida alla sovranità tecnologica degli Stati Uniti.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Cosa prevede la politica di remunerazione per gli emittenti di EMT significativi?",
+                        "contesto": "Gli emittenti di EMT significativi devono adottare una politica di remunerazione che promuova una gestione del rischio solida ed efficace. Questa politica deve contribuire a garantire che i rischi di liquidità siano adeguatamente gestiti e che l'emittente possa affrontare scenari di stress.La politica di remunerazione per gli emittenti significativi è essenziale per assicurare che gli emittenti mantengano una gestione solida dei rischi e che possano affrontare periodi di instabilità.",
+                        "risposta": "Gli emittenti di EMT significativi devono adottare una politica di remunerazione che promuova una gestione del rischio solida ed efficace. Questa politica deve contribuire a garantire che i rischi di liquidità siano adeguatamente gestiti e che l'emittente possa affrontare scenari di stress.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Quali sono le limitazioni alle comunicazioni di mercato imposte agli emittenti di EMT?",
+                        "contesto": "L'art. 53 impone alcune limitazioni alle comunicazioni di mercato da parte degli emittenti di EMT: devono essere eque, chiare, non fuorvianti e coerenti con quanto dichiarato nel white paper.",
+                        "risposta": "Le comunicazioni di mercato degli emittenti di EMT devono essere eque, chiare, non fuorvianti e coerenti con quanto dichiarato nel white paper.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Quando un EMT può essere classificato come significativo?",
+                        "contesto": "Gli EMT possono essere classificati come significativi dall'EBA, sulla base delle informazioni ricevute dall'autorità competente dello Stato membro dell'emittente o su richiesta volontaria dell'emittente. Devono essere soddisfatti almeno tre dei criteri stabiliti dall'art. 56, tra cui un'ampia base di clienti, un'elevata capitalizzazione di mercato o un elevato numero di transazioni.",
+                        "risposta": "Un EMT può essere classificato come significativo se soddisfa almeno tre dei criteri stabiliti dall'art. 56, tra cui un'ampia base di clienti, un'elevata capitalizzazione di mercato o un elevato numero di transazioni.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Quali sono le conseguenze della classificazione di un EMT come significativo?",
+                        "contesto": "Quando un EMT è classificato come significativo, le responsabilità di vigilanza nei confronti dell'emittente vengono trasferite dall'autorità competente dello Stato membro all'EBA. Inoltre, gli EMT significativi sono soggetti a requisiti aggiuntivi, come la costituzione di una riserva di attività segregata e il mantenimento di fondi propri in elementi CET1.",
+                        "risposta": "Un EMT significativo è soggetto alla vigilanza dell'EBA e deve rispettare requisiti aggiuntivi, come una riserva di attività segregata e fondi propri in elementi CET1.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Quali sono i poteri dell'EBA nella vigilanza degli EMT significativi?", 
+                        "contesto": "L'EBA può richiedere informazioni, condurre indagini, esaminare documenti, richiedere spiegazioni, effettuare ispezioni in loco e condurre stress test sulla liquidità. Inoltre, può rivalutare annualmente se un EMT continua a soddisfare i criteri per essere classificato come significativo.",
+                        "risposta": "L'EBA ha ampi poteri di vigilanza, tra cui la richiesta di informazioni, indagini, ispezioni in loco e stress test sulla liquidità.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Quali misure possono adottare le autorità competenti in caso di violazione delle norme MiCAR?", 
+                        "contesto": "Le autorità competenti possono sospendere l'emissione o la negoziazione di EMT per un massimo di 30 giorni, vietare le comunicazioni di marketing e, in caso di violazione accertata, vietare l'emissione di cripto-attività. Inoltre, possono imporre sanzioni amministrative e rendere pubblica la violazione.",
+                        "risposta": "Le autorità competenti possono sospendere o vietare l'emissione di EMT, vietare le comunicazioni di marketing e imporre sanzioni amministrative.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Quali sono i requisiti patrimoniali aggiuntivi per gli emittenti di EMT significativi?",
+                        "contesto": "Gli emittenti di EMT significativi devono costituire una riserva di attività segregata per coprire i rischi di liquidità e mantenere fondi propri pari almeno al 3% dell'importo medio della riserva di attività, secondo l'art. 35.",
+                        "risposta": "Gli emittenti di EMT significativi devono mantenere una riserva di attività segregata e fondi propri pari almeno al 3% dell'importo medio della riserva.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Quali poteri hanno le autorità competenti nei confronti degli emittenti di EMT?", 
+                        "contesto": "Le autorità competenti possono accedere a qualsiasi documento o dato rilevante, sospendere l'emissione o l'ammissione alla negoziazione per un massimo di 30 giorni e vietare le comunicazioni di marketing in caso di sospetta violazione del MiCAR.",
+                        "risposta": "Le autorità competenti possono accedere a documenti e dati rilevanti, sospendere l'emissione per 30 giorni e vietare le comunicazioni di marketing in caso di violazioni.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Quali sanzioni possono essere applicate in caso di violazione del MiCAR?",
+                        "contesto": "L'art. 111 prevede sanzioni amministrative fino a 5.000.000 di euro per persone fisiche o fino al 12,5% del fatturato annuo totale per persone giuridiche. Inoltre, l'EBA ha il potere di imporre ammende, sospendere l'offerta o vietarla completamente.",
+                        "risposta": "Le sanzioni per la violazione del MiCAR possono arrivare fino a 5.000.000 di euro per individui o il 12,5% del fatturato per aziende, con poteri aggiuntivi per l'EBA.",
+                        "argomento":"MiCAR"
+                    },
+                    {
+                        "domanda": "Cosa stabilisce il CSDR?",
+                        "contesto": "Il Regolamento (UE) n. 909/2014, noto come CSDR, stabilisce obblighi uniformi per il regolamento degli strumenti finanziari e norme riguardanti l'organizzazione e l'attività dei depositari centrali di titoli (CSD), con l'obiettivo di promuovere un regolamento sicuro, efficace e agevole delle operazioni su titoli all'interno dell'Unione Europea. Il CSDR (Central Securities Depositories Regulation) è stato introdotto per migliorare l'infrastruttura di regolamento dei titoli e per garantire che i depositari centrali di titoli operino in modo efficiente e sicuro in tutta l'UE.",
+                        "risposta": "Il CSDR stabilisce obblighi uniformi per il regolamento degli strumenti finanziari e norme per l'organizzazione dei CSD, garantendo un'infrastruttura sicura ed efficiente per il mercato europeo.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Che cos'è un CSD secondo il CSDR?",
+                        "contesto": "Secondo il CSDR, i CSD svolgono un ruolo fondamentale nei mercati finanziari dell'UE, gestendo i titoli e supportando la regolamentazione delle transazioni finanziarie.",
+                        "risposta": "Un CSD (Deposito Centrale di Titoli) è un'entità che gestisce un sistema di regolamento titoli, fornisce servizi di notariato e gestione accentrata dei conti titoli, assicurando il buon funzionamento del mercato.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Quali strumenti finanziari sono regolati dal CSDR?",
+                        "contesto": "Il CSDR si applica al regolamento di tutti gli strumenti finanziari, inclusi azioni, obbligazioni, derivati e altri titoli negoziati nei mercati regolamentati, nei sistemi multilaterali di negoziazione (MTF) o negoziati in  altre sedi di negoziazione. Il CSDR si applica a una vasta gamma di strumenti finanziari per garantire che i regolamenti siano standardizzati e che i mercati siano sicuri e trasparenti.",
+                        "risposta": "Il CSDR si applica a tutti gli strumenti finanziari, come azioni, obbligazioni e derivati, negoziati nei mercati regolamentati, nei sistemi multilaterali di negoziazione (MTF) o negoziati in altre sedi di negoziazione. L’obiettivo del CSDR è garantire un mercato sicuro e trasparente attraverso regole di regolamento uniformi.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Quali obblighi devono rispettare i CSD secondo il CSDR?",
+                        "contesto": "I CSD devono essere autorizzati dalle autorità nazionali competenti, rispettare i requisiti di organizzazione e condotta, essere sottoposti a vigilanza continua, adottare solidi dispositivi di governo societario, e stabilire procedure per la gestione dei rischi operativi e delle tecnologie dell'informazione. Il CSDR stabilisce una serie di requisiti rigorosi per i CSD al fine di garantire che siano ben organizzati, trasparenti e in grado di gestire i rischi operativi legati alle loro operazioni.",
+                        "risposta": "I CSD devono rispettare requisiti stringenti di organizzazione, governance e gestione del rischio, garantendo operazioni trasparenti e sicure nel mercato finanziario.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Cosa prevede il CSDR riguardo la gestione dei rischi nei CSD?",
+                        "contesto": "I CSD devono dotarsi di procedure efficaci per l'identificazione, la gestione e il controllo dei rischi, adottare politiche retributive adeguate, stabilire piani di continuità operativa e rispondere ai rischi operativi derivanti dall'uso delle tecnologie dell'informazione e della comunicazione (TIC). La gestione dei rischi è un aspetto cruciale del CSDR, che richiede ai CSD di adottare misure preventive per affrontare potenziali interruzioni operative e garantire la continuità del servizio.",
+                        "risposta": "Il CSDR richiede ai CSD di dotarsi di procedure efficaci per l'identificazione, la gestione e il controllo dei rischi, adottare politiche retributive adeguate, stabilire piani di continuità operativa e rispondere ai rischi operativi derivanti dall'uso delle tecnologie dell'informazione e della comunicazione (TIC).",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Cosa impone il CSDR per il regolamento delle operazioni su titoli?",
+                        "contesto": "Il CSDR impone ai CSD di stabilire procedure per facilitare il regolamento delle operazioni su titoli, minimizzare l'esposizione ai rischi di controparte e di liquidità, monitorare i mancati regolamenti e applicare penalità in caso di violazioni. Il CSDR promuove un ambiente di mercato più sicuro e fluido, con l'obiettivo di ridurre il rischio di mancati regolamenti e garantire che le transazioni siano completate in modo tempestivo.",
+                        "risposta": "Il CSDR impone ai CSD di stabilire procedure per facilitare il regolamento delle operazioni su titoli, ridurre i rischi di controparte e di liquidità, monitorare i mancati regolamenti e applicare penalità in caso di violazioni. Questo approccio promuove un ambiente di mercato sicuro e fluido, riducendo i rischi di mancati regolamenti e garantendo il completamento tempestivo delle transazioni.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Come devono essere gestiti i pagamenti in contante nei sistemi di regolamento secondo il CSDR?", 
+                        "contesto": "Il regolamento delle operazioni in titoli contro contante deve avvenire con consegna contro pagamento (DVP). Quando possibile, i CSD regolano i pagamenti in contanti tramite conti presso una banca centrale, altrimenti possono usare conti presso enti creditizi autorizzati. Il CSDR stabilisce la modalità di regolamento delle operazioni in contante per garantire che i pagamenti siano effettuati in modo sicuro e che i rischi di liquidità siano ridotti.",
+                        "risposta": " Il CSDR stabilisce che il regolamento delle operazioni in titoli contro contante debba avvenire tramite consegna contro pagamento (DVP). I CSD devono preferibilmente utilizzare conti presso una banca centrale per i pagamenti in contante, ma possono anche ricorrere a conti presso enti creditizi autorizzati, garantendo così un'esecuzione sicura e minimizzando i rischi di liquidità.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Quali diritti hanno gli emittenti riguardo l'accesso ai servizi dei CSD?",
+                        "contesto": "Gli emittenti hanno il diritto di far registrare i loro titoli presso qualsiasi CSD nell'Unione Europea. I CSD devono trattare le domande di accesso in modo non discriminatorio e, in caso di rifiuto, l'emittente ha il diritto di presentare un reclamo presso l'autorità competente.Il CSDR garantisce la libertà di accesso per gli emittenti a qualsiasi CSD dell'UE, assicurando che i processi di registrazione dei titoli siano equi e trasparenti.",
+                        "risposta": "Gli emittenti hanno il diritto di registrare i loro titoli presso qualsiasi CSD nell'Unione Europea, e i CSD devono trattare le domande di accesso in modo equo e non discriminatorio. Se una domanda viene rifiutata, l'emittente ha il diritto di presentare un reclamo all'autorità competente, garantendo così un processo di registrazione trasparente e accessibile.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Quali requisiti di trasparenza devono rispettare i CSD secondo il CSDR?",
+                        "contesto": "I CSD devono rendere pubblici i prezzi e le commissioni associate ai loro servizi, le condizioni per beneficiare di sconti e le procedure per il trattamento delle domande di accesso, incluse le norme in caso di inadempimento da parte dei partecipanti.Il CSDR promuove la trasparenza nei mercati finanziari dell'UE, assicurando che le informazioni relative ai costi e alle politiche di accesso siano chiaramente disponibili per tutti gli attori del mercato.",
+                        "risposta": "Il CSDR richiede che i CSD rendano pubblici i prezzi, le commissioni dei loro servizi, le condizioni per ottenere sconti e le procedure di accesso, comprese le norme per trattare eventuali inadempimenti da parte dei partecipanti. Questi requisiti promuovono la trasparenza nei mercati finanziari dell'UE, assicurando che tutte le informazioni siano chiaramente accessibili a tutti gli attori del mercato.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Come si verifica la cooperazione tra le autorità competenti e l'ESMA nel CSDR?",
+                        "contesto": "Le autorità competenti, le autorità rilevanti e l'ESMA si scambiano informazioni necessarie per l'esercizio delle loro funzioni. L'ESMA effettua verifiche inter pares sulle attività delle autorità competenti e le autorità competenti possono richiedere ai CSD di presentare relazioni periodiche sulle attività svolte in altri Stati membri.La cooperazione tra le autorità competenti e l'ESMA è fondamentale per garantire una vigilanza coerente e armonizzata sull'operato dei CSD in tutta l'Unione Europea.",
+                        "risposta": "La cooperazione tra le autorità competenti e l'ESMA avviene attraverso lo scambio di informazioni necessarie per svolgere le loro funzioni. L'ESMA effettua verifiche inter pares sulle autorità competenti e può richiedere ai CSD di fornire relazioni periodiche sulle loro attività in altri Stati membri. Questo meccanismo di cooperazione è essenziale per garantire una vigilanza armonizzata e coerente sui CSD in tutta l'Unione Europea.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Che tipo di sanzioni possono essere applicate in caso di violazione del CSDR?",
+                        "contesto": "Le autorità competenti possono applicare sanzioni e misure amministrative, tra cui sanzioni pecuniarie, la revoca delle autorizzazioni e l'interdizione temporanea o permanente dall'esercizio di funzioni di gestione, in caso di violazione del CSDR.Il CSDR stabilisce misure rigorose per sanzionare le violazioni, garantendo che le normative siano rispettate e che i CSD operino in modo sicuro e conforme agli standard.",
+                        "risposta": "In caso di violazione del CSDR, le autorità competenti possono applicare sanzioni amministrative, come sanzioni pecuniarie, revoca delle autorizzazioni o interdizione temporanea o permanente dall'esercizio delle funzioni di gestione. Tali misure garantiscono il rispetto delle normative e la sicurezza operativa dei CSD.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Come avviene il riconoscimento dei CSD stabiliti in paesi terzi?",
+                        "contesto": "Il CSDR prevede un meccanismo per il riconoscimento dei CSD stabiliti in paesi terzi, a condizione che rispettino requisiti equivalenti a quelli stabiliti dal regolamento. L'ESMA valuta le domande di riconoscimento e consulta le autorità competenti degli Stati membri e le autorità di vigilanza del paese terzo.Il riconoscimento dei CSD di paesi terzi è un processo che assicura che tali entità rispettino gli standard di sicurezza e efficienza previsti dal CSDR.",
+                        "risposta": "Il CSDR prevede un meccanismo per il riconoscimento dei CSD stabiliti in paesi terzi, a condizione che questi soddisfino requisiti equivalenti a quelli del regolamento. L'ESMA valuta le richieste di riconoscimento, consultando le autorità competenti degli Stati membri e le autorità di vigilanza del paese terzo, assicurando che i CSD esteri rispettino gli standard di sicurezza ed efficienza stabiliti dal CSDR.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "In che modo il CSDR si collega ad altri atti legislativi dell'UE?",
+                        "contesto": "Il CSDR è strettamente legato ad altri atti legislativi dell'UE, come la direttiva MiFID II e il regolamento MiFIR, che disciplinano i mercati finanziari e le imprese di investimento, e il regolamento DORA, che rafforza la resilienza operativa digitale del settore finanziario.Il CSDR interagisce con altre normative dell'UE per assicurare che tutti gli aspetti dei mercati finanziari, dalla regolamentazione dei titoli alla gestione dei rischi digitali, siano coerenti e integrati.",
+                        "risposta": "Il CSDR è strettamente connesso ad altri atti legislativi dell'UE, come MiFID II, MiFIR e DORA, che disciplinano rispettivamente i mercati finanziari, le imprese di investimento e la resilienza operativa digitale. Questi regolamenti interagiscono per garantire coerenza e integrazione tra le normative, affrontando vari aspetti della gestione dei mercati finanziari, dalla regolamentazione dei titoli alla sicurezza digitale.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Cosa prevede il CSDR per il miglioramento della resilienza operativa digitale?",
+                        "contesto": "Il CSDR è stato modificato dal regolamento DORA, che introduce requisiti più stringenti per la gestione dei rischi TIC e la segnalazione di incidenti informatici, rafforzando la resilienza operativa digitale del settore finanziario.Il miglioramento della resilienza operativa digitale è diventato un obiettivo prioritario con l'introduzione del regolamento DORA, che ha rafforzato le misure di sicurezza per i CSD e altre infrastrutture finanziarie.",
+                        "risposta": "Il CSDR è stato modificato dal regolamento DORA, che introduce requisiti più severi per la gestione dei rischi TIC e la segnalazione degli incidenti informatici, al fine di rafforzare la resilienza operativa digitale del settore finanziario. L'introduzione di DORA ha reso la sicurezza digitale una priorità, migliorando le misure di protezione per i CSD e altre infrastrutture finanziarie.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Cosa prevede il CSDR riguardo la revisione del regolamento?",
+                        "contesto": "La Commissione Europea è tenuta a riesaminare il CSDR entro il 18 settembre 2019, presentando una relazione al Parlamento Europeo e al Consiglio, con eventuali proposte legislative.Il CSDR prevede una revisione periodica del regolamento per assicurarsi che le norme rimangano efficaci e adeguate alle esigenze del mercato finanziario europeo.",
+                        "risposta": "Il CSDR prevede una revisione periodica del regolamento, da parte della Commissione Europea, per garantire che le normative rimangano adeguate ed efficaci per il mercato finanziario europeo. La revisione consente di adattare le normative alle evoluzioni del mercato, con eventuali proposte legislative presentate al Parlamento Europeo e al Consiglio.",
+                        "argomento":"CSDR"
+                    },
+                    {
+                        "domanda": "Cos'è la DORA?",
+                        "contesto": "La DORA (Digital Operational Resilience Act) è un regolamento dell'Unione Europea che mira a rafforzare la resilienza operativa digitale nel settore finanziario, stabilendo un quadro normativo uniforme per prevenire, gestire e rispondere a minacce e incidenti informatici.",
+                        "risposta": "La DORA  (Digital Operational Resilience Act) è un regolamento dell'Unione Europea che stabilisce un quadro normativo per migliorare la resilienza operativa digitale nel settore finanziario, aiutando le entità a prevenire e gestire minacce e incidenti informatici, garantendo che possiedano le capacità necessarie per far fronte a questi rischi.",
+                        "argomento":"DORA"
+                    },
+                    {
+                        "domanda": "A chi si applica la DORA?",
+                        "contesto": "La DORA si applica a tutte le entità finanziarie regolamentate nell'Unione Europea, inclusi banche, assicurazioni, gestori patrimoniali, infrastrutture di mercato e fornitori terzi critici di servizi TIC.",
+                        "risposta": "La DORA si applica a tutte le entità finanziarie regolamentate nell'Unione Europea, come banche, assicurazioni, gestori patrimoniali, infrastrutture di mercato e fornitori terzi critici di servizi TIC, assicurando che tutte rispettino elevati standard di resilienza digitale e sicurezza.",
+                        "argomento":"DORA"
+                    },
+                    {
+                        "domanda": "Quali obblighi introduce la DORA per le entità finanziarie?",
+                        "contesto": "La DORA introduce obblighi in materia di gestione dei rischi TIC, segnalazione degli incidenti TIC e operativi, test di resilienza operativa digitale, condivisione di dati relativi alle vulnerabilità e alle minacce, e gestione dei rischi informatici derivanti da terzi.",
+                        "risposta": "La DORA introduce obblighi per le entità finanziarie in tema di gestione dei rischi TIC, segnalazione di incidenti TIC, test di resilienza operativa digitale e gestione dei rischi informatici legati a fornitori terzi, al fine di garantire che possiedano le risorse e competenze necessarie per prevenire e gestire gli attacchi informatici.",
+                        "argomento":"DORA"
+                    },
+                    {
+                        "domanda": "Cosa prevede la DORA riguardo alla gestione dei rischi informatici nelle entità finanziarie?",
+                        "contesto": "La DORA stabilisce che le entità finanziarie devono predisporre un quadro completo per la gestione dei rischi informatici, che includa strategie, politiche, procedure e strumenti necessari per proteggere adeguatamente i patrimoni informativi e le risorse TIC.",
+                        "risposta": "La DORA impone alle entità finanziarie di adottare un quadro completo per la gestione dei rischi informatici, comprendente strategie, politiche e procedure per proteggere i patrimoni informativi e le risorse TIC, in modo da ridurre il rischio e migliorare la resilienza alle minacce informatiche.",
+                        "argomento":"DORA"
+                    },
+                    {
+                        "domanda": "Cosa devono fare le entità finanziarie in caso di incidenti TIC gravi?",
+                        "contesto": "Le entità finanziarie sono tenute a segnalare agli organi competenti tutti gli incidenti gravi connessi alle TIC, seguendo modelli standardizzati per la notifica e le relazioni successive, compresa una relazione finale con l'analisi delle cause e l'impatto.",
+                        "risposta": "Le entità finanziarie devono segnalare tempestivamente agli organi competenti gli incidenti TIC gravi, seguendo procedure standard per garantire una gestione strutturata, con analisi delle cause e impatto, al fine di ridurre danni e migliorare la sicurezza complessiva del sistema finanziario.",
+                        "argomento":"DORA"
+                    },
+                    {
+                        "domanda": "Come vengono gestite le sanzioni per le violazioni della DORA?",
+                        "contesto": "Le autorità competenti possono imporre sanzioni amministrative e misure di riparazione, come multe, cessazione delle pratiche violative e altre misure per garantire la conformità.",
+                        "risposta": "Le violazioni della DORA sono sanzionate con misure amministrative, tra cui multe e la cessazione delle pratiche violative, per garantire la conformità alle normative e promuovere la resilienza operativa digitale nel settore finanziario.",
+                        "argomento":"DORA"
+                    },
+                    {
+                        "domanda": "Come vengono determinati i tipi di sanzioni per le violazioni della DORA?",
+                        "contesto": "Le sanzioni vengono determinate tenendo conto di vari fattori, tra cui la gravità della violazione, la responsabilità, la solidità finanziaria della persona responsabile, gli utili realizzati e la cooperazione con l'autorità competente.",
+                        "risposta": "Le sanzioni per le violazioni della DORA sono determinate in base alla gravità della violazione, alla responsabilità, alla solidità finanziaria del trasgressore e alla sua cooperazione con le autorità competenti, assicurando che siano giuste, proporzionate e dissuasive.",
+                        "argomento":"DORA"
+                    },
+                    {
+                        "domanda": "Qual è la procedura per le sanzioni contro i fornitori terzi critici di servizi TIC?",
+                        "contesto": "Se i fornitori terzi critici non rispettano gli obblighi, le autorità competenti possono imporre penalità di mora, che possono essere applicate giornalmente fino al raggiungimento della conformità, con una durata massima di sei mesi.",
+                        "risposta": "I fornitori terzi critici che non rispettano gli obblighi della DORA sono soggetti a penalità di mora giornaliere fino al raggiungimento della conformità, con una durata massima di sei mesi, per garantire il rispetto delle normative e la sicurezza operativa nel settore finanziario.",
+                        "argomento":"DORA"
+                    },
+                    {
+                        "domanda": "Quali entità devono segnalare gli incidenti operativi e relativi alla sicurezza dei pagamenti?",
+                        "contesto": "Gli enti creditizi, gli istituti di pagamento, i prestatori di servizi di informazione sui conti e gli istituti di moneta elettronica sono tenuti a segnalare tutti gli incidenti operativi o relativi alla sicurezza dei pagamenti, indipendentemente dalla loro natura TIC.",
+                        "risposta": "Gli enti creditizi, gli istituti di pagamento, i prestatori di servizi di informazione sui conti e gli istituti di moneta elettronica devono segnalare tempestivamente tutti gli incidenti operativi o di sicurezza dei pagamenti, per proteggere il sistema finanziario e intervenire prontamente in caso di violazioni.",
+                        "argomento":"DORA"
+                    },
+                    {
+                        "domanda": "Cosa accade se le autorità competenti rilevano violazioni delle disposizioni della DORA?",
+                        "contesto": "Le autorità competenti possono imporre misure sanzionatorie, tra cui la cessazione di pratiche violative, sanzioni pecuniarie, e pubblicare le informazioni relative alle violazioni sul loro sito ufficiale.",
+                        "risposta": "Se vengono rilevate violazioni della DORA, le autorità competenti possono imporre misure sanzionatorie, come multe e cessazione delle pratiche non conformi, e pubblicare informazioni relative alle violazioni per garantire trasparenza e promuovere il rispetto delle normative.",
+                        "argomento":"DORA"
+                    }
+                ]
+}

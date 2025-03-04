@@ -50,6 +50,8 @@ python convert_db.py
 
 ```
 
+Assicurati che nella sezione "Network Access" di MongoDB Atlas vengano consentite le richieste dal tuo indirizzo IP.
+
 ### 5. Installare le dipendenze
 
 #### Backend

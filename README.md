@@ -43,7 +43,7 @@ Recuperare la **chiave di connessione** e inserirla in `MONGO_URI` nei file:
 - `chatbot/src/app.py`
 
 
-### 4. Esegui lo script per popolare il database
+### 3. Esegui lo script per popolare il database
 
 ```bash
 python convert_db.py
@@ -52,7 +52,7 @@ python convert_db.py
 
 Assicurati che nella sezione "Network Access" di MongoDB Atlas vengano consentite le richieste dal tuo indirizzo IP.
 
-### 5. Installare le dipendenze
+### 4. Installare le dipendenze
 
 #### Backend
 
@@ -72,7 +72,7 @@ Assicurati di avere **Node.js** installato.
 npm install
 ```
 
-### 6. Spostati nella cartella dell'applicazione
+### 5. Spostati nella cartella dell'applicazione
 
 Prima di avviare l'applicazione
 
@@ -80,7 +80,7 @@ Prima di avviare l'applicazione
 cd chatbot
 ```
 
-### 7. Crea due terminali separati 
+### 6. Crea due terminali separati 
 
 Nel primo terminale avvia il backend:
 

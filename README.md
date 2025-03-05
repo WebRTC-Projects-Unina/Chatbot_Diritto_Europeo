@@ -25,6 +25,7 @@ Questo progetto è un chatbot basato su **React** per il frontend e **Flask** pe
 
 ```bash
 git clone https://github.com/WebRTC-Projects-Unina/Chatbot_Diritto_Europeo.git
+cd Chatbot_Diritto_Europeo
 
 ```
 

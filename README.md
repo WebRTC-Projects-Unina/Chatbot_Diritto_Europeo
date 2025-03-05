@@ -53,7 +53,15 @@ python convert_db.py
 
 Assicurati che nella sezione "Network Access" di MongoDB Atlas vengano consentite le richieste dal tuo indirizzo IP.
 
-### 4. Installare le dipendenze
+### 4. Spostati nella cartella dell'applicazione
+
+Prima di scaricare le librerie ed avviare l'app spostati nella cartella che contiene l'app
+
+```bash
+cd chatbot
+```
+
+### 5. Installare le dipendenze
 
 #### Backend
 
@@ -71,14 +79,6 @@ Assicurati di avere **Node.js** installato.
 
 ```bash
 npm install
-```
-
-### 5. Spostati nella cartella dell'applicazione
-
-Prima di avviare l'applicazione
-
-```bash
-cd chatbot
 ```
 
 ### 6. Crea due terminali separati 
